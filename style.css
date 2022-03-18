@@ -1,0 +1,206 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Futura;
+  text-align: center;
+  background-color: #e8e3da;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  background-color: #00A36C;
+  margin: 0px;
+  padding: 30px;
+  color: white;
+}
+
+p {
+  background-color: #e0ca70;
+  padding: 10px;
+  width: 290px;
+  border-radius: 10px;
+  vertical-align: middle;
+  margin-left: 20px;
+  color: #373a7a;
+  height: 40px;
+  vertical-align: center;
+}
+
+.content {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.userInfo label {
+  float: left;
+  width: 100px;
+  margin-right: 3px;
+  height: 35px;
+  padding-top: 8px;
+}
+
+.address {
+  background-color: #00A36C;
+  color: #e0ca70;
+}
+
+.totalSection label {
+  float: left;
+  width: 130px;
+  margin-right: 3px;
+}
+
+input[type=text] {
+  border-radius: 10px;
+  border: none;
+  padding: 10px 15px;
+  font-size: 12px;
+}
+
+input[type=radio] {
+  margin-top: 12px;
+  margin-left: 30px;
+  margin-right: 4px;
+  background-color: blue;
+  height: 15px;
+}
+
+table {
+  margin-left: 20px;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+#reciept {
+  margin: auto;
+}
+
+.reciept-n {
+  text-align: left !important;
+    padding: 10px;
+}
+
+.reciept-c {
+  text-align: right !important;
+  padding: 10px;
+}
+
+#time {
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #e0ca70;
+  width: 350px;
+  border-radius: 10px;
+}
+
+th {
+  background-color: #00A36C;
+  padding: 5px 10px;
+  margin: 10px;
+  color: white;
+}
+
+td {
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  
+}
+
+tr {
+  border: 2px black solid;
+  background-color: #c8e6d0;
+  border-radius: 10px;
+}
+
+table input {
+  font-size: 15px !important;
+  padding-left: 10px !important;
+  width: 40px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.totalSection {
+  display: block;
+  width: 130px;
+  height: 60px;
+}
+
+.totalSection input {
+  display: inline-block;
+  width: 60px !important;
+}
+
+#subtotal, #total, #tax {
+  font-size: 15px !important;
+  padding-left: 10px !important;
+  width: 40px;
+  margin-left: 5px;
+  text-align: left;
+}
+
+input[type=button] {
+  display: block;
+  align-self: center;
+  margin: auto;
+  width: 150px;
+  height: 40px;
+  background-color: #016b47;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-family: Futura;
+  font-size: 15px;
+  font-weight: bold;
+  transition-duration: 0.4s;
+}
+
+input[type=button]:hover {
+  background-color: #e0ca70;
+  color: #016b47;
+}
+
+input[type=button]:active {
+  background-color: #016b47;
+}
+
+.total {
+  background-color: #00A36C;
+  color: #e0ca70;
+}
+
+.itemName {
+  text-align: left;
+}
+
+.cost-label {
+  display: inline-block;
+  text-align: left;
+  padding-top: 8px;
+  width: 100px;
+}
+
+.cost-value {
+  display: inline-block;
+  text-align: right !important;
+  width: 60px !important;
+}
+
+#total-row {
+  background-color: #00A36C;
+  font-weight: bold;
+  color: white;
+}
+
+.cost-row {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  width: 200px;
+  background-color: #e0ca70;
+  height: 40px;
+  border-radius: 10px;
+  vertical-align: middle;
+  text-align: center;
+}
